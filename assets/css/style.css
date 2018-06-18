@@ -1,0 +1,41 @@
+/* body {
+    background-image: url("../images/dossier.jpg");
+} */
+.container {
+    padding: 50px; 
+    border-radius: 5px; 
+    border-color: black; 
+    text-align: center; 
+}
+
+.guess-button {
+    padding: 40px; 
+    display: block;
+
+    /* font-family: 'Fjalla One', sans-serif; */
+}
+
+.container {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#timer {
+    padding: 20px; 
+    font-family: 'IBM Plex Mono', monospace;
+}
+#question {
+    padding: 20px; 
+}
+
+#start-game {
+    display: block;
+    border-radius: 5px; 
+    border-style: solid; 
+    width: 100px; 
+    height: 20px; 
+    margin-top: 75px; 
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 20px; 
+
+}
