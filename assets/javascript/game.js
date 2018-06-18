@@ -33,7 +33,7 @@ var questionsList = [{
     image: "assets/images/tbilisi.jpg",
     correctCity: "Tbilisi"
 },
-{   question: "We intercepted an e-mail from her saying she was heading to Central American country for a new job on the volcanic island of Ometepe, what country could she possible be referring to?",
+{   question: "We intercepted an e-mail from her saying she was heading to Central American country for a new job on the volcanic island of Ometepe, what country could she possibly be going to?",
     answers: ["Costa Rica", "Nicaragua", "Mexico", "Belize"],
     correct: 2,
     funFact: "Lay low for the next couple days, it has been a wild ride, but as she preps for her job, she isn't going anywhere. Be patient!",
