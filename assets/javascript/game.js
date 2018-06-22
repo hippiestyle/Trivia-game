@@ -58,13 +58,13 @@ var questionsList = [{
 // FROM HERE ---- MY TIMER: I THINK I SHOULD TURN THIS INTO AN OBJECT. //
 
 var intervalId; 
-var number = 11; 
+var number = 31; 
 
 
 function run() {
     clearInterval(intervalId);
     intervalId = setInterval(decrement, 1000);
-    number = 11; 
+    number = 31; 
 }
 
 function decrement() {
