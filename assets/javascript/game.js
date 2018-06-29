@@ -116,7 +116,7 @@ function ifCorrect() {
 function ifWrong() {
     $("#question").html(questionsList[aQQ-1].funFact);
     //this needs to get sorted out. I have only eliminated HTML in the guess buttons, but havent temporarily disabled the buttons. 
-    $(".guess-button").remove("");
+    $(".guess-button").html("");
     $("#photo-slot").html("<img src=" + questionsList[aQQ-1].image + ">")
     $("#timer").html("WRONG! The correct answer is " + questionsList[aQQ-1].correctCity); 
     incorrect++; 
